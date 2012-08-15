@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - 0.6
+before_install:
+  - npm install coffee-script
+script:
+  - cake test
+notifications:
+  email:
+    - meyer@paperplanes.de
